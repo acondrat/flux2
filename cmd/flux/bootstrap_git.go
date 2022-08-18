@@ -31,8 +31,8 @@ import (
 	"github.com/spf13/cobra"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/fluxcd/flux2/internal/bootstrap"
-	"github.com/fluxcd/flux2/internal/bootstrap/git/gogit"
+	"github.com/fluxcd/flux2/pkg/bootstrap"
+	"github.com/fluxcd/flux2/pkg/bootstrap/git/gogit"
 	"github.com/fluxcd/flux2/internal/flags"
 	"github.com/fluxcd/flux2/internal/utils"
 	"github.com/fluxcd/flux2/pkg/manifestgen"

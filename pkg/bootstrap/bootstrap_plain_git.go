@@ -38,7 +38,7 @@ import (
 	"github.com/fluxcd/pkg/kustomize/filesys"
 	runclient "github.com/fluxcd/pkg/runtime/client"
 
-	"github.com/fluxcd/flux2/internal/bootstrap/git"
+	"github.com/fluxcd/flux2/pkg/bootstrap/git"
 	"github.com/fluxcd/flux2/internal/utils"
 	"github.com/fluxcd/flux2/pkg/log"
 	"github.com/fluxcd/flux2/pkg/manifestgen/install"
